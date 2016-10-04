@@ -31,40 +31,40 @@ namespace TeamProject1 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Home;
         
         /// <summary>
-        /// projects control.
+        /// GameTracker control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl projects;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl GameTracker;
         
         /// <summary>
-        /// services control.
+        /// Products control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl services;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Products;
         
         /// <summary>
-        /// about control.
+        /// About control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl About;
         
         /// <summary>
-        /// contact control.
+        /// Contact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contact;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Contact;
         
         /// <summary>
         /// MainContent control.
