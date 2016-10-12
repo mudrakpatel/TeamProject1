@@ -71,6 +71,10 @@
     <Content Include="Assets\Images\counterstrike.jpg" />
     <Content Include="Assets\Images\fifa1.jpg" />
     <Content Include="Assets\Images\fifa17.jpg" />
+    <Content Include="battleFieldPage.aspx" />
+    <Content Include="callOfDutyPage.aspx" />
+    <Content Include="counterStrikePage.aspx" />
+    <Content Include="fifa17Page.aspx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <None Include="Web.Debug.config">
@@ -117,6 +121,20 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="battleFieldPage.aspx.cs">
+      <DependentUpon>battleFieldPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="battleFieldPage.aspx.designer.cs">
+      <DependentUpon>battleFieldPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="callOfDutyPage.aspx.cs">
+      <DependentUpon>callOfDutyPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="callOfDutyPage.aspx.designer.cs">
+      <DependentUpon>callOfDutyPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -124,12 +142,26 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="counterStrikePage.aspx.cs">
+      <DependentUpon>counterStrikePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="counterStrikePage.aspx.designer.cs">
+      <DependentUpon>counterStrikePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fifa17Page.aspx.cs">
+      <DependentUpon>fifa17Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fifa17Page.aspx.designer.cs">
+      <DependentUpon>fifa17Page.aspx</DependentUpon>
     </Compile>
     <Compile Include="GameTracker.aspx.cs">
       <DependentUpon>GameTracker.aspx</DependentUpon>

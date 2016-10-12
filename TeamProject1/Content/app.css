@@ -5,6 +5,46 @@ body {
 }
 .gameImagesDiv{
     border:3px solid black;
-    height:400px;
+    height:auto;
     width:auto;
+}
+
+/*.gameImageDiv{
+ height:390px;
+ width:328px;
+ margin-top:2px;
+ display:inline-block;
+ border:2px solid gray;
+}*/
+
+#fifa17Link{
+    background-image:url(../Assets/Images/fifa17.jpg);
+    background-size:contain;
+        height:390px;
+    width:328px;
+}
+
+#callOfDutyLink{
+    background-image:url(../Assets/Images/callofduty.jpg);
+    background-size:contain;
+        height:390px;
+    width:328px;
+}
+
+#counterStrikeLink{
+    background-image:url(../Assets/Images/counterstrike.jpg);
+    background-size:contain;
+
+}
+
+#battleFieldLink{
+    background-image:url(../Assets/Images/battlefield.jpg);
+    background-size:contain;
+
+}
+
+.gameImageLinks{
+    height:390px;
+    width:328px;
+    display:inline-block;
 }
