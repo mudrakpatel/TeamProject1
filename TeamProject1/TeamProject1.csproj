@@ -66,6 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\battlefield.jpg" />
+    <Content Include="Assets\Images\callofduty.jpg" />
+    <Content Include="Assets\Images\counterstrike.jpg" />
+    <Content Include="Assets\Images\fifa1.jpg" />
+    <Content Include="Assets\Images\fifa17.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <None Include="Web.Debug.config">
@@ -147,7 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

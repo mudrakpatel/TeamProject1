@@ -24,15 +24,11 @@ namespace TeamProject1
                 case "Home":
                     Home.Attributes.Add("class", "active");
                     break;
-                case "Products":
-                    Products.Attributes.Add("class", "active");
-                    break;
+                
                 case "GameTracker":
                     GameTracker.Attributes.Add("class", "active");
                     break;
-                case "About":
-                    About.Attributes.Add("class", "active");
-                    break;
+                
                 case "Contact":
                     Contact.Attributes.Add("class", "active");
                     break;

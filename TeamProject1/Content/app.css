@@ -3,3 +3,8 @@ body {
     padding-bottom: 70px; 
 
 }
+.gameImagesDiv{
+    border:3px solid black;
+    height:400px;
+    width:auto;
+}
