@@ -1,4 +1,7 @@
 ﻿/* custom css goes here */
+/**
+    Styling for Default.aspx
+*/
 body { 
     padding-bottom: 70px; 
 
@@ -8,14 +11,6 @@ body {
     height:auto;
     width:auto;
 }
-
-/*.gameImageDiv{
- height:390px;
- width:328px;
- margin-top:2px;
- display:inline-block;
- border:2px solid gray;
-}*/
 
 #fifa17Link{
     background-image:url(../Assets/Images/fifa17.jpg);
