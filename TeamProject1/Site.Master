@@ -40,8 +40,6 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
                         <li id="GameTracker" runat="server"><a href="GameTracker.aspx"><i class="fa fa-th fa-lg"></i>  Game Tracker</a></li>
-                        <li id="Products" runat="server"><a href="Products.aspx"><i class="fa fa-gear fa-lg"></i>  Products</a></li>
-                        <li id="About" runat="server"><a href="About.aspx"><i class="fa fa-info fa-lg"></i>  About</a></li>
                         <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>  Contact</a></li>
                     </ul>
                 </div>

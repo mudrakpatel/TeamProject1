@@ -40,24 +40,6 @@ namespace TeamProject1 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl GameTracker;
         
         /// <summary>
-        /// Products control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Products;
-        
-        /// <summary>
-        /// About control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl About;
-        
-        /// <summary>
         /// Contact control.
         /// </summary>
         /// <remarks>
