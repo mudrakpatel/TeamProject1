@@ -67,11 +67,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Images\battlefield.jpg" />
+    <Content Include="Assets\Images\battlefieldTextLogo.png" />
+    <Content Include="Assets\Images\callofduty %282%29.jpg" />
     <Content Include="Assets\Images\callofduty.jpg" />
     <Content Include="Assets\Images\counterstrike.jpg" />
+    <Content Include="Assets\Images\counterstrike.png" />
     <Content Include="Assets\Images\fifa1.jpg" />
     <Content Include="Assets\Images\fifa17.jpg" />
     <Content Include="Assets\Images\fifa17Background.jpg" />
+    <Content Include="Assets\Images\fifaTextLogo.png" />
     <Content Include="battleFieldPage.aspx" />
     <Content Include="callOfDutyPage.aspx" />
     <Content Include="counterStrikePage.aspx" />
