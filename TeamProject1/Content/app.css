@@ -47,28 +47,30 @@ body {
 }
 
 #fifa17Link{
-    background-image:url(../assets/images/fifa17.jpg);
+    background-image:url(../assets/images/fifaTextLogo.png);
+    background-color:#f7e842;
     background-size:contain;
-        /*height:390px;*/
-    /*width:328px;*/
+    background-position-x:center;
 }
 
 #callOfDutyLink{
-    /*background-image:url(../Assets/Images/callofduty.jpg);*/
+    background-image:url('../Assets/Images/callofdutyTextLogo.jpg');
     background-size:contain;
-        /*height:390px;*/
-    /*width:328px;*/
+    background-position-x:center;
 }
 
 #counterStrikeLink{
-    /*background-image:url(../Assets/Images/counterstrike.jpg);*/
+    background-image:url(../Assets/Images/counterstrike.png);
+    background-color:#f77529;
     background-size:contain;
-
+    background-position-x:center;
 }
 
 #battleFieldLink{
-    /*background-image:url(../Assets/Images/battlefield.jpg);*/
+    background-image:url(../Assets/Images/battlefieldTextLogo.png);
+    background-color:black;
     background-size:contain;
+    background-position-x:center;
 
 }
 
@@ -96,10 +98,3 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
 /**
     Styling for fifa17Page.aspx here
 */
-
-/*body{
-   background-repeat:no-repeat;
-   background-image:url(../Assets/Images/fifa17Background.jpg);
-   background-size:auto;
-   background-position:top;
-}*/

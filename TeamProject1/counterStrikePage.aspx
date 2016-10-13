@@ -11,7 +11,10 @@
                         code won't run!
        5) MOST IMPORTANT: DON'T PANIC! WE ARE A TEAM :) I will always help you
      -->
+
+    
     <div class="counterStrikeContentDiv">
+        <!--
         <asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
                     OnRowDeleting="">
@@ -23,5 +26,7 @@
                         <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
+            -->
     </div>
+    
 </asp:Content>

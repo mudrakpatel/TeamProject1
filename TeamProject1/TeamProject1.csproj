@@ -68,7 +68,7 @@
   <ItemGroup>
     <Content Include="Assets\Images\battlefield.jpg" />
     <Content Include="Assets\Images\battlefieldTextLogo.png" />
-    <Content Include="Assets\Images\callofduty %282%29.jpg" />
+    <Content Include="Assets\Images\callofdutyTextLogo.jpg" />
     <Content Include="Assets\Images\callofduty.jpg" />
     <Content Include="Assets\Images\counterstrike.jpg" />
     <Content Include="Assets\Images\counterstrike.png" />
