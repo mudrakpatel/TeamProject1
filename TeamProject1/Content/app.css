@@ -56,9 +56,9 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
     Styling for fifa17Page.aspx here
 */
 
-.backgroundImageDiv{
-    background-image:url(../Assets/Images/fifa17Background.jpg);
-    height;grid-auto-columns;
-    width:auto;
-
-}
+/*body{
+   background-repeat:no-repeat;
+   background-image:url(../Assets/Images/fifa17Background.jpg);
+   background-size:auto;
+   background-position:top;
+}*/
