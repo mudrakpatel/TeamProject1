@@ -71,6 +71,7 @@
     <Content Include="Assets\Images\counterstrike.jpg" />
     <Content Include="Assets\Images\fifa1.jpg" />
     <Content Include="Assets\Images\fifa17.jpg" />
+    <Content Include="Assets\Images\fifa17Background.jpg" />
     <Content Include="battleFieldPage.aspx" />
     <Content Include="callOfDutyPage.aspx" />
     <Content Include="counterStrikePage.aspx" />

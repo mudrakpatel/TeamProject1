@@ -2,17 +2,13 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="gameImagesDiv">
-        <a href="#" class="gameImageLinks" id="fifa17Link">
-            <!--<div class="gameImageDiv" ></div>-->
+        <a href="fifa17Page.aspx" class="gameImageLinks" id="fifa17Link">
         </a>
-        <a href="#" class="gameImageLinks" id="callOfDutyLink">
-            <!--<div class="gameImageDiv" ></div>-->
+        <a href="callOfDutyPage.aspx" class="gameImageLinks" id="callOfDutyLink">
         </a>
-        <a href="#" class="gameImageLinks" id="counterStrikeLink">
-            <!--<div class="gameImageDiv" ></div>-->
+        <a href="counterStrikePage.aspx" class="gameImageLinks" id="counterStrikeLink">
         </a>
-        <a href="#" class="gameImageLinks" id="battleFieldLink">
-            <!--<div class="gameImageDiv" ></div>-->
+        <a href="battleFieldPage.aspx" class="gameImageLinks" id="battleFieldLink">
         </a>
     </div>
     
