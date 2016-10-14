@@ -18,7 +18,6 @@ namespace TeamProject1
             if (!IsPostBack)
             {
                 this.getCounterStrike();
-
                 
             }
 
@@ -33,7 +32,7 @@ namespace TeamProject1
         {
             using(GameContextAzure db = new GameContextAzure())
             {
-                var csData = (from cStrike in db.GameTables
+                var csData = (from cStrike in db.GameTable
                               select cStrike);
                 CounterStrikeGridView.DataSource = csData.ToList();
                 CounterStrikeGridView.DataBind();

@@ -192,6 +192,7 @@
     <Compile Include="LoginSignUpPage.aspx.designer.cs">
       <DependentUpon>LoginSignUpPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\database_firewall_rules.cs" />
     <Compile Include="Models\GameContextAzure.cs" />
     <Compile Include="Models\GameTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

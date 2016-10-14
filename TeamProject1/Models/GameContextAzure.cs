@@ -12,7 +12,8 @@ namespace TeamProject1.Models
         {
         }
 
-        public virtual DbSet<GameTable> GameTables { get; set; }
+        public virtual DbSet<GameTable> GameTable { get; set; }
+        public virtual DbSet<database_firewall_rules> database_firewall_rules { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -35,6 +36,14 @@ namespace TeamProject1.Models
             modelBuilder.Entity<GameTable>()
                 .Property(e => e.TEAM_2_Score)
                 .IsFixedLength();
+
+            modelBuilder.Entity<database_firewall_rules>()
+                .Property(e => e.start_ip_address)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<database_firewall_rules>()
+                .Property(e => e.end_ip_address)
+                .IsUnicode(false);
         }
     }
 }
