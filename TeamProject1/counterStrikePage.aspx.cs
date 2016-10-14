@@ -31,7 +31,7 @@ namespace TeamProject1
         /// <param name="e"></param>
         private void getCounterStrike()
         {
-            using(GameContext db = new GameContext())
+            using(GameContextAzure db = new GameContextAzure())
             {
                 var csData = (from cStrike in db.GameTables
                               select cStrike);
