@@ -22,15 +22,15 @@ namespace TeamProject1
             switch (Page.Title)
             {
                 case "Home":
-                    Home.Attributes.Add("class", "active");
+                    HomeLink.Attributes.Add("class", "active");
                     break;
                 
                 case "GameTracker":
-                    GameTracker.Attributes.Add("class", "active");
+                    LoginSignUpLink.Attributes.Add("class", "active");
                     break;
                 
                 case "Contact":
-                    Contact.Attributes.Add("class", "active");
+                    ContactLink.Attributes.Add("class", "active");
                     break;
             }
         }

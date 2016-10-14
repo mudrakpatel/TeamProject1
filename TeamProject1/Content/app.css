@@ -514,3 +514,168 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
     }
 
 }
+
+/*
+    Styles for LoginSignUpPage.aspx goes here
+*/
+.loginDiv{
+    border-radius:5px 5px 5px 5px;
+    border:3px solid #78787d;
+    width:775px;
+    height:65px;
+    display:block;
+    padding-left:10px;
+    margin-top:-15px;
+    position:relative;
+    left:20%;
+    
+    /*left:50%;*/
+}
+
+.usernameTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    font-size:25px;
+}
+
+.passwordTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    font-size:25px;
+}
+
+.loginButton{
+    background-color:white;
+    border:3px solid #78787d;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    font-size:25px;
+    transition-property:background-color,color;
+    transition-duration:0.6s;
+    transition-delay:0.1s;
+}
+
+.loginButton:hover {
+    color:white;
+    background-color:#78787d;
+}
+
+.signupDiv{
+    border-radius:5px 5px 5px 5px;
+    border:3px solid #78787d;
+    margin-top:5px;
+    width:475px;
+    height:auto;
+    display:list-item;
+    padding-left:15px;
+    padding-bottom:10px;
+    position:relative;
+    left:30%;
+}
+
+.firstNameSignUpTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    width:425px;
+    font-size:25px;
+    display:list-item;
+}
+
+.lastNameSignUpTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    width:425px;
+    height:40px;
+    font-size:25px;
+    display:list-item;
+}
+
+.passwordSignUpTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    width:425px;
+    font-size:25px;
+    display:list-item;
+}
+
+.phoneSignUpTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    width:425px;
+    font-size:25px;
+    display:list-item;
+}
+
+.emailSignUpTextBox{
+    border:3px #78787d solid;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    width:425px;
+    font-size:25px;
+    display:list-item;
+}
+
+.signUpButton{
+    background-color:white;
+    border:3px solid #34fc04;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    width:210px;
+    font-size:25px;
+    transition-property:background-color;
+    transition-duration:0.6s;
+    transition-delay:0.1s;
+}   
+
+.signUpButton:hover {
+    color:white;
+    background-color:#34fc04;
+}
+
+.cancelButton{
+    background-color:white;
+    border:3px solid red;
+    margin-top:8px;
+    margin-left:6px;
+    border-radius:5px 5px 5px 5px;
+    height:40px;
+    width:210px;
+    font-size:25px;
+    transition-property:background-color,color;
+    transition-duration:0.6s;
+    transition-delay:0.1s;
+}   
+
+.cancelButton:hover {
+    color:white;
+    background-color:red;
+}
+
+@media screen and (max-width:1111px){
+    .signupDiv{
+        left:0%;
+    }
+}

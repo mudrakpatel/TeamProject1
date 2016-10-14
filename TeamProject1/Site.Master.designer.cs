@@ -22,31 +22,31 @@ namespace TeamProject1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Home control.
+        /// HomeLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Home;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl HomeLink;
         
         /// <summary>
-        /// GameTracker control.
+        /// LoginSignUpLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl GameTracker;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl LoginSignUpLink;
         
         /// <summary>
-        /// Contact control.
+        /// ContactLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Contact;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ContactLink;
         
         /// <summary>
         /// MainContent control.
