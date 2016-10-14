@@ -15,9 +15,6 @@
     <div class="counterStrikeTextDivNew">Counter Strike Go</div>
 
     <div class="counterStrikeContentDiv">
-
-
-        
             <asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
                      Visible="true">
