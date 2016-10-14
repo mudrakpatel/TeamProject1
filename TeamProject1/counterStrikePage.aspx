@@ -14,8 +14,11 @@
 
     
     <div class="counterStrikeContentDiv">
-        <!--
-        <asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
+
+        <div class="counterStrikeTextDivNew">Counter Strike Go</div>
+
+        <%--
+            asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
                     OnRowDeleting="">
                     <Columns>
@@ -26,7 +29,9 @@
                         <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
-            -->
+            --%>
     </div>
+
+    <div class="counterStrikeTextDiv">Counter Strike Go</div>
     
 </asp:Content>

@@ -14,8 +14,8 @@
 
     
     <div class="battlefieldContentDiv">
-        <!--
-        <asp:GridView ID="BattleFieldGridView" runat="server" AutoGenerateColumns="false"
+        <%--
+                    <asp:GridView ID="BattleFieldGridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
                     OnRowDeleting="">
                     <Columns>
@@ -26,7 +26,7 @@
                         <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
-            -->
+            --%>
     </div>
     
 </asp:Content>

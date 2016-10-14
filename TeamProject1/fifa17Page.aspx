@@ -12,10 +12,13 @@
         5) MOST IMPORTANT: DON'T PANIC! WE ARE A TEAM :) I will always help you
      -->
 
-    
-    <div class="fifaContentDiv">
-        <!--
-        <asp:GridView ID="Fifa17GridView" runat="server" AutoGenerateColumns="false"
+    <div class="fifaImageDiv"></div>
+
+    <div class="fifaTextDivNew">Fifa 17</div>
+
+        <div class="fifaContentDiv">
+        <%--
+            <asp:GridView ID="Fifa17GridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
                     OnRowDeleting="">
                     <Columns>
@@ -26,7 +29,11 @@
                         <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
-            -->
+            --%>
     </div>
+
+    <div class="fifaTextDiv">Fifa 17</div>
+    
+
     
 </asp:Content>

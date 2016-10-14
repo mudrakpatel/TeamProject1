@@ -55,6 +55,7 @@ body {
 
 #callOfDutyLink{
     background-image:url('../Assets/Images/callofdutyTextLogo.jpg');
+    background-color:white;
     background-size:contain;
     background-position-x:center;
 }
@@ -98,3 +99,249 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
 /**
     Styling for fifa17Page.aspx here
 */
+
+.fifaContentDiv{
+    border:3px solid black;
+    height:400px;
+    width:700px;
+    float:none;
+    margin-right:5px;
+    display:compact;
+    float:right;
+    position:relative;
+    z-index:90;
+    background-color:white;    
+    -webkit-margin-top-collapse:separate;
+}
+
+.fifaTextDiv{
+    height:60px;
+    width:550px;
+    text-align:center;
+    padding-bottom:20px;
+    font-family:Verdana;
+    font-size:35px;
+    border:3px solid black;
+    display:block;
+}
+
+.fifaImageDiv{
+    border:3px solid black;
+    height:400px;
+    width:550px;
+    background-image:url(../Assets/Images/fifa17Background.jpg);
+    background-size:contain;
+    display:inline-block;
+}
+
+.fifaTextDivNew{
+    display:none;
+}
+
+/*
+    Media query for responsiveness of div tags
+*/
+@media screen and (max-width:1111px){
+    .fifaImageDiv{
+        background-image:url(../Assets/Images/fifa17.jpg);
+        height:383px;
+        width:250px;
+    }
+
+    .fifaTextDiv{
+        display:none;
+    }
+
+    .fifaTextDivNew{
+        height:60px;
+        width:700px;
+        float:right;
+        margin-right:5px;
+        text-align:center;
+        padding-bottom:20px;
+        font-family:Verdana;
+        font-size:35px;
+        border:3px solid black;
+        display:inline-block;
+    }
+
+    .fifaContentDiv{
+        border:3px solid black;
+        height:400px;
+        width:700px;
+        float:none;
+        margin-right:5px;
+        margin-top:-320px;
+        display:inline-block;
+        float:right;
+        position:relative;
+        z-index:90;
+        background-color:white;    
+        /*-webkit-margin-top-collapse:separate;*/
+    }
+}
+
+@media screen and (max-width:960px){
+    .fifaTextDiv{
+        display:none;
+    }
+
+    .fifaTextDivNew{
+        display:none;
+    }
+
+    .fifaImageDiv{
+        display:none;
+    }
+
+    .fifaContentDiv{
+        margin-top:6px;
+    }
+
+}
+
+/*
+    callOfDutyPage.aspx styles goes here
+*/
+.callOfDutyContentDiv{
+    border:3px solid black;
+    height:400px;
+    width:700px;
+    float:none;
+    margin-right:5px;
+    display:compact;
+    float:right;
+    position:relative;
+    z-index:90;
+    background-color:white;    
+    -webkit-margin-top-collapse:separate;
+}
+
+.callOfDutyTextDiv{
+    height:60px;
+    width:550px;
+    text-align:center;
+    padding-bottom:20px;
+    font-family:Verdana;
+    font-size:35px;
+    border:3px solid black;
+    display:block;
+}
+
+.callOfDutyImageDiv{
+    border:3px solid black;
+    height:400px;
+    width:550px;
+    background-image:url(../Assets/Images/callOfDutyBigImage.jpg);
+    display:inline-block;
+    background-size:cover;
+    background-position:center;
+}
+
+.callOfDutyTextDivNew{
+    display:none;
+}
+/*
+    code for responsive div tags on callOfDutyPage.aspx
+*/
+@media screen and (max-width:1111px){
+    .callOfDutyImageDiv{
+        background-image:url(../Assets/Images/callOfDuty.jpg);
+        height:383px;
+        width:250px;
+    }
+
+    .callOfDutyTextDiv{
+        display:none;
+    }
+
+    .callOfDutyTextDivNew{
+        height:60px;
+        width:700px;
+        float:right;
+        margin-right:5px;
+        text-align:center;
+        padding-bottom:20px;
+        font-family:Verdana;
+        font-size:35px;
+        border:3px solid black;
+        display:inline-block;
+    }
+
+    .callOfDutyContentDiv{
+        border:3px solid black;
+        height:400px;
+        width:700px;
+        float:none;
+        margin-right:5px;
+        margin-top:-320px;
+        display:inline-block;
+        float:right;
+        position:relative;
+        z-index:90;
+        background-color:white;    
+        /*-webkit-margin-top-collapse:separate;*/
+    }
+}
+
+@media screen and (max-width:960px){
+    .callOfDutyTextDiv{
+        display:none;
+    }
+
+    .callOfDutyTextDivNew{
+        display:none;
+    }
+
+    .callOfDutyImageDiv{
+        display:none;
+    }
+
+    .callOfDutyContentDiv{
+        margin-top:6px;
+    }
+
+}
+
+/*
+    Styles for counterStrikePage.aspx goes here
+*/
+
+.counterStrikeContentDiv{
+    border:3px solid black;
+    height:400px;
+    width:700px;
+    float:none;
+    margin-right:5px;
+    display:compact;
+    float:right;
+    position:relative;
+    z-index:90;
+    background-color:white;    
+    -webkit-margin-top-collapse:separate;
+}
+
+.counterStrikeTextDiv{
+    height:60px;
+    width:550px;
+    text-align:center;
+    padding-bottom:20px;
+    font-family:Verdana;
+    font-size:35px;
+    border:3px solid black;
+    display:block;
+}
+
+.counterStrikeImageDiv{
+    border:3px solid black;
+    height:400px;
+    width:550px;
+    background-image:url(../Assets/Images/callOfDutyBigImage.jpg);
+    display:inline-block;
+    background-size:cover;
+    background-position:center;
+}
+
+.counterStrikeTextDivNew{
+    display:none;
+}
