@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="battleFieldPage.aspx.cs" Inherits="TeamProject1.battleFieldPage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-     <!--Comments for Javid:
+    <!--Comments for Javid:
         1) In DataField for each asp:BoundField tags, put the name of column that you have named in tables
         2) The DataField should match EXACTLY the way the columns are named in the databse tables
         3) Write code to select the data from tables in consideration to the game
@@ -12,8 +13,11 @@
        5) MOST IMPORTANT: DON'T PANIC! WE ARE A TEAM :) I will always help you
      -->
 
-    
-    <div class="battlefieldContentDiv">
+    <div class="battleFieldImageDiv"></div>
+
+    <div class="battleFieldTextDivNew">Battlefield 1</div>
+
+    <div class="battleFieldContentDiv">
         <%--
                     <asp:GridView ID="BattleFieldGridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
@@ -26,7 +30,9 @@
                         <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
-            --%>
+        --%>
     </div>
-    
+
+    <div class="battleFieldTextDiv">Battlefield 1</div>
+
 </asp:Content>

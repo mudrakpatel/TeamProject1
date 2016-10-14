@@ -336,7 +336,7 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
     border:3px solid black;
     height:400px;
     width:550px;
-    background-image:url(../Assets/Images/callOfDutyBigImage.jpg);
+    background-image:url(../Assets/Images/counterStrikeBigImage.jpg);
     display:inline-block;
     background-size:cover;
     background-position:center;
@@ -344,4 +344,173 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
 
 .counterStrikeTextDivNew{
     display:none;
+}
+/*
+    Styles for responsible div tags in counterStrikePage.aspx
+*/
+@media screen and (max-width:1111px){
+    .counterStrikeImageDiv{
+        background-image:url(../Assets/Images/counterStrike.jpg);
+        height:383px;
+        width:250px;
+    }
+
+    .counterStrikeTextDiv{
+        display:none;
+    }
+
+    .counterStrikeTextDivNew{
+        height:60px;
+        width:700px;
+        float:right;
+        margin-right:5px;
+        text-align:center;
+        padding-bottom:20px;
+        font-family:Verdana;
+        font-size:35px;
+        border:3px solid black;
+        display:inline-block;
+    }
+
+    .counterStrikeContentDiv{
+        border:3px solid black;
+        height:400px;
+        width:700px;
+        float:none;
+        margin-right:5px;
+        margin-top:-320px;
+        display:inline-block;
+        float:right;
+        position:relative;
+        z-index:90;
+        background-color:white;    
+        /*-webkit-margin-top-collapse:separate;*/
+
+    }
+}
+
+@media screen and (max-width:960px){
+    .counterStrikeTextDiv{
+        display:none;
+    }
+
+    .counterStrikeTextDivNew{
+        display:none;
+    }
+
+    .counterStrikeImageDiv{
+        display:none;
+    }
+
+    .counterStrikeContentDiv{
+        margin-top:6px;
+    }
+
+}
+
+/*
+    Styles for battleFieldPage.aspx goes here
+*/
+
+
+/*
+    Styles for battleFieldPage.aspx div tags responsiveness goes here
+*/
+.battleFieldContentDiv{
+    border:3px solid black;
+    height:400px;
+    width:700px;
+    float:none;
+    margin-right:5px;
+    display:compact;
+    float:right;
+    position:relative;
+    z-index:90;
+    background-color:white;    
+    -webkit-margin-top-collapse:separate;
+}
+
+.battleFieldTextDiv{
+    height:60px;
+    width:550px;
+    text-align:center;
+    padding-bottom:20px;
+    font-family:Verdana;
+    font-size:35px;
+    border:3px solid black;
+    display:block;
+}
+
+.battleFieldImageDiv{
+    border:3px solid black;
+    height:400px;
+    width:550px;
+    background-image:url(../Assets/Images/battlefieldBigImage.jpg);
+    display:inline-block;
+    background-size:cover;
+    background-position:center;
+}
+
+.battleFieldTextDivNew{
+    display:none;
+}
+
+@media screen and (max-width:1111px){
+    .battleFieldImageDiv{
+        background-image:url(../Assets/Images/battlefield.jpg);
+        height:383px;
+        width:250px;
+    }
+
+    .battleFieldTextDiv{
+        display:none;
+    }
+
+    .battleFieldTextDivNew{
+        height:60px;
+        width:700px;
+        float:right;
+        margin-right:5px;
+        text-align:center;
+        padding-bottom:20px;
+        font-family:Verdana;
+        font-size:35px;
+        border:3px solid black;
+        display:inline-block;
+    }
+
+    .battleFieldContentDiv{
+        border:3px solid black;
+        height:400px;
+        width:700px;
+        float:none;
+        margin-right:5px;
+        margin-top:-320px;
+        display:inline-block;
+        float:right;
+        position:relative;
+        z-index:90;
+        background-color:white;    
+        /*-webkit-margin-top-collapse:separate;*/
+
+    }
+}
+
+@media screen and (max-width:960px){
+    .battleFieldTextDiv{
+        display:none;
+    }
+
+    .battleFieldTextDivNew{
+        display:none;
+    }
+
+    .battleFieldImageDiv{
+        display:none;
+    }
+
+    .battleFieldContentDiv{
+        margin-top:6px;
+    }
+
 }

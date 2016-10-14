@@ -11,11 +11,11 @@
                         code won't run!
        5) MOST IMPORTANT: DON'T PANIC! WE ARE A TEAM :) I will always help you
      -->
-
+    <div class="counterStrikeImageDiv"></div>
     
-    <div class="counterStrikeContentDiv">
+    <div class="counterStrikeTextDivNew">Counter Strike Go</div>
 
-        <div class="counterStrikeTextDivNew">Counter Strike Go</div>
+    <div class="counterStrikeContentDiv">
 
         <%--
             asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
