@@ -17,19 +17,19 @@
 
     <div class="counterStrikeContentDiv">
 
-        <%--
-            asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
+        
+            <asp:GridView ID="CounterStrikeGridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
-                    OnRowDeleting="">
+                     Visible="true">
                     <Columns>
-                        <asp:BoundField DataField="" HeaderText="WEEK" Visible="true" />
-                        <asp:BoundField DataField="" HeaderText="TEAM 1" Visible="true" />
-                        <asp:BoundField DataField="" HeaderText="TEAM 1 SCORE" Visible="true" />
-                        <asp:BoundField DataField="" HeaderText="TEAM 2 SCORE" Visible="true" />
-                        <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
+                        <asp:BoundField DataField="WEEK_NUMBER" HeaderText="WEEK" Visible="true" />
+                        <asp:BoundField DataField="TEAM_1_ID" HeaderText="TEAM 1" Visible="true" />
+                        <asp:BoundField DataField="TEAM_1_Score" HeaderText="TEAM 1 SCORE" Visible="true" />
+                        <asp:BoundField DataField="TEAM_2_Score" HeaderText="TEAM 2 SCORE" Visible="true" />
+                        <asp:BoundField DataField="TEAM_2_ID" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
-            --%>
+            
     </div>
 
     <div class="counterStrikeTextDiv">Counter Strike Go</div>
