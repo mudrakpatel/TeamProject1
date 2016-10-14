@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="Counter Strike" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="counterStrikePage.aspx.cs" Inherits="TeamProject1.counterStrikePage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
    <!--Comments for Javid:
         1) In DataField for each asp:BoundField tags, put the name of column that you have named in tables
         2) The DataField should match EXACTLY the way the columns are named in the databse tables
