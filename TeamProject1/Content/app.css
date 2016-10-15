@@ -308,7 +308,7 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
 */
 
 .counterStrikeContentDiv{
-    border:3px solid black;
+    /*border:3px solid black;*/
     height:400px;
     width:700px;
     float:none;
@@ -319,6 +319,57 @@ box-shadow: 0px 31px 70px 3px rgba(117,145,214,1);
     z-index:90;
     background-color:white;    
     -webkit-margin-top-collapse:separate;
+    /*text-align:center;*/
+    /*padding-top:10px;
+    padding-left:10px;*/
+}
+
+.CounterStrikeGridView{
+    height:400px;
+    width:700px;
+    text-align:center;
+}
+
+.CS_WEEK_NUMBER{
+    font-size:25px;
+    border:none;
+    background-color:#16b17d;
+    color:white;
+}
+
+.CS_TEAM_1_ID{
+    font-size:25px;
+    border:none;
+    background-color:#721feb;
+    color:white;
+}
+
+.CS_TEAM_1_Score{
+    font-size:25px;
+    border:none;
+    background-color:#1955b5;
+    color:white;
+}
+
+.CS_TEAM_2_Score{
+    font-size:25px;
+    border:none;
+    background-color:#c419c6;
+    color:white;
+}
+
+.TEAM_2_ID{
+    font-size:25px;
+    border:none;
+    background-color:#565658;
+    color:white;
+}
+
+.CS_GRID_HEADER{
+    font-size:25px;
+    border:none;
+    background-color:#a0ed23;
+    color:white;
 }
 
 .counterStrikeTextDiv{
