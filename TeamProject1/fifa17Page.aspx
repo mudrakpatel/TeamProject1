@@ -1,22 +1,17 @@
 ﻿<%@ Page Title="Fifa 17" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="fifa17Page.aspx.cs" Inherits="TeamProject1.fifa17Page" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <!--Comments for Javid:
-        1) In DataField for each asp:BoundField tags, put the name of column that you have named in tables
-        2) The DataField should match EXACTLY the way the columns are named in the databse tables
-        3) Write code to select the data from tables in consideration to the game
-           i.e.  For Fifa 17 game webpage, select only the data where the game is Fifa 17
-        4) PLEASE NOTE: First connect this project to the database and then input all fields
-                        from database, otherwise during code execution and testing the 
-                        code won't run!
-        5) MOST IMPORTANT: DON'T PANIC! WE ARE A TEAM :) I will always help you
+    <!--
+    Mudrak Patel and Javid Niftaliyeve
+    COMP229 Project
      -->
 
     <div class="fifaImageDiv"></div>
 
     <div class="fifaTextDivNew">Fifa 17</div>
 
-        <div class="fifaContentDiv">
+    <div class="fifaContentDiv">
         <%--
             <asp:GridView ID="Fifa17GridView" runat="server" AutoGenerateColumns="false"
                     CssClass="" DataKeyNames=""
@@ -29,11 +24,11 @@
                         <asp:BoundField DataField="" HeaderText="TEAM 2" Visible="true" />                                           
                     </Columns>
                 </asp:GridView>
-            --%>
+        --%>
     </div>
 
     <div class="fifaTextDiv">Fifa 17</div>
-    
 
-    
+
+
 </asp:Content>

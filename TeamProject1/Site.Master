@@ -1,8 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TeamProject1.Site" %>
 
 <!DOCTYPE html>
-<!--Name: Javid Niftaliyev & Mudra Patel -->
-<!--Student Id: 300742916-->
+<!--Javid Niftaliyev: 300742916-->
+<!--Mudrak Patel: 300878960-->
 <!--GitHub: github.com/Web1017/TeamProject1 -->
 <!--Azure: teamproject1-gametracker.azurewebsites.net/  -->
 <!--Site.Master file -->
@@ -32,16 +32,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Default.aspx"><i class="fa fa-fort-awesome fa-lg"></i>  Game Tracker</a>
+                    <a class="navbar-brand" href="Default.aspx"><i class="fa fa-fort-awesome fa-lg"></i>Game Tracker</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="HomeLink" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
-                        <li id="LoginSignUpLink" runat="server"><a href="LoginSignUpPage.aspx"><i class="fa fa fa-user fa-lg"></i>  Login/Sign Up</a></li>
-                        <li id="ContactLink" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>  Contact</a></li>
+                        <li id="HomeLink" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                        <li id="LoginSignUpLink" runat="server"><a href="LoginSignUpPage.aspx"><i class="fa fa fa-user fa-lg"></i>Login/Sign Up</a></li>
+                        <li id="ContactLink" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
